@@ -196,7 +196,7 @@
 			<string>(?xi)
 
 				# normal stuff, capture 1
-				 \b(bigint|bigserial|bit|boolean|box|bytea|cidr|circle|date|double(?:\sprecision)?|inet|int|integer|line|lseg|macaddr|money|oid|path|point|polygon|real|serial|smallint|smalldatetime|sysdate|sysname|tinyint|text|xml)\b
+				 \b(bigint|bigserial|bit|boolean|box|bytea|binary|cidr|circle|date|datetime|double(?:\sprecision)?|inet|int|integer|line|lseg|macaddr|money|oid|path|point|polygon|real|rowversion|serial|smallint|smalldatetime|sysdate|sysname|tinyint|text|xml)\b
 
 				# numeric suffix, capture 2 + 3i
 				|\b(bit\svarying|character\s(?:varying)?|var\schar|float|interval)\((\d+)\)
